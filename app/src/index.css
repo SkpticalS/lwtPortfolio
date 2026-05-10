@@ -1,6 +1,14 @@
 @import url('https://chinese-font.netlify.app/packages/dyh/dist/SmileySans-Oblique/result.css');
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai:wght@300;400;700&family=Noto+Sans+SC:wght@300;400;500;700&family=JetBrains+Mono:wght@400;700&display=swap');
 
+@font-face {
+  font-family: 'KuibenKaiShu';
+  src: url('./演示魁本楷书.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

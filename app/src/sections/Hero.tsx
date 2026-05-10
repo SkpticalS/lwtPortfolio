@@ -47,22 +47,11 @@ export default function Hero() {
             transitionDelay: '0.2s',
           }}
         >
-          {/* Decorative line above */}
-          <div
-            className="mx-auto mb-4 h-px w-16"
-            style={{
-              background: 'linear-gradient(90deg, transparent, #E8905A, transparent)',
-              opacity: loaded ? 1 : 0,
-              transform: loaded ? 'scaleX(1)' : 'scaleX(0)',
-              transition: 'opacity 0.6s ease-out, transform 0.6s ease-out',
-              transitionDelay: '0.1s',
-            }}
-          />
           <h1
             className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl"
             style={{
-              fontFamily: '"LXGW WenKai", system-ui, sans-serif',
-              fontWeight: 700,
+              fontFamily: '"KuibenKaiShu", "LXGW WenKai", system-ui, sans-serif',
+              fontWeight: 400,
               letterSpacing: '0.2em',
               lineHeight: 1.1,
               background: 'linear-gradient(180deg, #F0F4F8 0%, #E8905A 100%)',
