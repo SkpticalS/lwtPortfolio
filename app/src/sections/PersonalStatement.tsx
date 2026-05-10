@@ -133,22 +133,6 @@ export default function PersonalStatement() {
           </p>
         </div>
 
-        {/* Attribution */}
-        <p
-          className="mt-8 text-sm"
-          style={{
-            fontFamily: '"JetBrains Mono", monospace',
-            color: '#8A9DB0',
-            fontWeight: 400,
-            opacity: loaded ? 1 : 0,
-            transform: loaded ? 'translateY(0)' : 'translateY(40px)',
-            transition: 'opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1)',
-            transitionDelay: '0.3s',
-          }}
-        >
-          — 罗文韬
-        </p>
-
         {/* Skill tags */}
         <div className="mt-6 flex flex-wrap justify-center gap-2">
           {skillTags.map((tag, i) => (
@@ -172,27 +156,6 @@ export default function PersonalStatement() {
           ))}
         </div>
 
-        {/* Parallax image */}
-        <div
-          className="mx-auto mt-12 max-w-[600px] overflow-hidden rounded-2xl"
-          style={{
-            opacity: loaded ? 1 : 0,
-            transform: loaded ? `translateY(${parallaxOffset * 0.1}px)` : 'translateY(40px)',
-            transition: 'opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1)',
-            transitionDelay: '0.6s',
-          }}
-        >
-          <img
-            src="/projects/tongzhimeng2.png"
-            alt="童之梦卧室细节"
-            className="w-full rounded-2xl object-cover"
-            style={{
-              transform: `translateY(${parallaxOffset * 0.3}px)`,
-              transition: 'transform 0.1s linear',
-            }}
-            loading="lazy"
-          />
-        </div>
       </div>
     </section>
   );
