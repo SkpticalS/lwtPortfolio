@@ -85,7 +85,7 @@ export default function PersonalStatement() {
         <h2
           className="mt-6 text-3xl sm:text-4xl"
           style={{
-            fontFamily: '"LXGW WenKai", "SmileySans-Oblique", system-ui, sans-serif',
+            fontFamily: '"SmileySans-Oblique", "LXGW WenKai", system-ui, sans-serif',
             color: '#F0F4F8',
             lineHeight: 1.2,
             opacity: loaded ? 1 : 0,
@@ -108,7 +108,7 @@ export default function PersonalStatement() {
           }}
         >
           <p
-            className="text-lg sm:text-xl"
+            className="text-base sm:text-lg"
             style={{
               fontFamily: '"LXGW WenKai", "Noto Sans SC", system-ui, sans-serif',
               color: '#F0F4F8',
