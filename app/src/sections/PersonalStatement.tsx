@@ -83,7 +83,7 @@ export default function PersonalStatement() {
 
         {/* Title */}
         <h2
-          className="mt-6 text-3xl sm:text-4xl"
+          className="mt-6 text-3xl sm:text-4xl whitespace-nowrap"
           style={{
             fontFamily: '"SmileySans-Oblique", "LXGW WenKai", system-ui, sans-serif',
             color: '#F0F4F8',

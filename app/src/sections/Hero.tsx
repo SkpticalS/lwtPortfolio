@@ -74,7 +74,7 @@ export default function Hero() {
 
         {/* Main Heading */}
         <h2
-          className="mt-6 text-3xl leading-tight sm:text-4xl md:text-5xl lg:text-[60px]"
+          className="mt-6 text-3xl leading-tight sm:text-4xl md:text-5xl lg:text-[48px] whitespace-nowrap"
           style={{
             fontFamily: '"LXGW WenKai", "SmileySans-Oblique", system-ui, sans-serif',
             color: '#F0F4F8',
@@ -87,7 +87,7 @@ export default function Hero() {
         >
           Unity/UE 游戏开发工程师
           <br />
-          <span style={{ fontSize: '0.7em', color: '#8A9DB0' }}>
+          <span className="text-base text-[#8A9DB0] sm:text-lg md:text-xl">
             主攻3D领域 · 技术美术学习者
           </span>
         </h2>
