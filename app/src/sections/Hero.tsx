@@ -39,21 +39,53 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 mx-auto flex max-w-[720px] flex-col items-center px-4 text-center">
         {/* Name */}
-        <h1
-          className="text-5xl md:text-6xl"
+        <div
           style={{
-            fontFamily: '"LXGW WenKai", "SmileySans-Oblique", system-ui, sans-serif',
-            color: '#F0F4F8',
-            letterSpacing: '0.15em',
-            textShadow: '0 0 40px rgba(232,144,90,0.2)',
             opacity: loaded ? 1 : 0,
             transform: loaded ? 'translateY(0)' : 'translateY(20px)',
             transition: 'opacity 0.8s ease-out, transform 0.8s ease-out',
             transitionDelay: '0.2s',
           }}
         >
-          罗文韬
-        </h1>
+          {/* Decorative line above */}
+          <div
+            className="mx-auto mb-4 h-px w-16"
+            style={{
+              background: 'linear-gradient(90deg, transparent, #E8905A, transparent)',
+              opacity: loaded ? 1 : 0,
+              transform: loaded ? 'scaleX(1)' : 'scaleX(0)',
+              transition: 'opacity 0.6s ease-out, transform 0.6s ease-out',
+              transitionDelay: '0.1s',
+            }}
+          />
+          <h1
+            className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl"
+            style={{
+              fontFamily: '"LXGW WenKai", system-ui, sans-serif',
+              fontWeight: 700,
+              letterSpacing: '0.2em',
+              lineHeight: 1.1,
+              background: 'linear-gradient(180deg, #F0F4F8 0%, #E8905A 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+              filter: 'drop-shadow(0 0 30px rgba(232,144,90,0.4)) drop-shadow(0 0 60px rgba(232,144,90,0.15))',
+            }}
+          >
+            罗文韬
+          </h1>
+          {/* Decorative line below */}
+          <div
+            className="mx-auto mt-4 h-px w-24"
+            style={{
+              background: 'linear-gradient(90deg, transparent, #E8905A, transparent)',
+              opacity: loaded ? 1 : 0,
+              transform: loaded ? 'scaleX(1)' : 'scaleX(0)',
+              transition: 'opacity 0.6s ease-out, transform 0.6s ease-out',
+              transitionDelay: '0.3s',
+            }}
+          />
+        </div>
 
         {/* Tagline */}
         <p

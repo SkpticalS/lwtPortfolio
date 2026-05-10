@@ -125,11 +125,10 @@ export default function PersonalStatement() {
               color: '#8A9DB0',
               fontWeight: 300,
               lineHeight: 1.8,
+              textWrap: 'balance',
             }}
           >
-            具备Unity全链路开发能力与3D资产生产经验的复合型开发者，已完成从概念设计到引擎集成的完整项目闭环。
-            深耕AIGC技术在游戏开发管线中的创新应用，深谙如何利用Vibe Coding实践和迁移编程思维。
-            以性能优化、视觉设计和跨领域协作为切入点，向技术美术职业目标持续进化。
+            具备Unity全链路开发能力与3D资产生产经验的复合型开发者，已完成从概念设计到引擎集成的完整项目闭环。深耕AIGC技术在游戏开发管线中的创新应用，深谙如何利用Vibe Coding实践和迁移编程思维。以性能优化、视觉设计和跨领域协作为切入点，向技术美术职业目标持续进化。
           </p>
         </div>
 
